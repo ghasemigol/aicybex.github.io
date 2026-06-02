@@ -1,1 +1,1 @@
-document.querySelectorAll('.project-grid article,.map-card,.person').forEach((el)=>{el.addEventListener('mousemove',()=>{el.style.boxShadow='0 24px 70px rgba(4,17,39,.16)'});el.addEventListener('mouseleave',()=>{el.style.boxShadow=''});});
+document.querySelectorAll('.project-grid article,.map-card,.person,.graph-node').forEach((el)=>{el.addEventListener('mousemove',()=>{el.style.boxShadow='0 24px 70px rgba(35,213,195,.18)'});el.addEventListener('mouseleave',()=>{el.style.boxShadow=''});});
