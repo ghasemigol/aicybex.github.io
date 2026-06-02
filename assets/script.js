@@ -1,7 +1,1 @@
-document.querySelectorAll(".card, .project-grid article, .person, .map-node").forEach((el)=>{
-  el.addEventListener("mousemove", e=>{
-    const r=el.getBoundingClientRect();
-    el.style.setProperty("--mx", `${e.clientX-r.left}px`);
-    el.style.setProperty("--my", `${e.clientY-r.top}px`);
-  });
-});
+document.querySelectorAll('.project-grid article,.map-card,.person').forEach((el)=>{el.addEventListener('mousemove',e=>{const r=el.getBoundingClientRect();el.style.boxShadow=`0 24px 70px rgba(4,17,39,.16)`});el.addEventListener('mouseleave',()=>{el.style.boxShadow='';});});
