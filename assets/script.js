@@ -1,0 +1,1 @@
+document.querySelectorAll('.project-grid article,.map-card,.person').forEach((el)=>{el.addEventListener('mousemove',()=>{el.style.boxShadow='0 24px 70px rgba(4,17,39,.16)'});el.addEventListener('mouseleave',()=>{el.style.boxShadow=''});});
