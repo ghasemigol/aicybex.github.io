@@ -6,16 +6,14 @@
   <title>AICYBEX Lab | AI + Cybersecurity + X</title>
   <meta name="description" content="AICYBEX Lab advances research in Artificial Intelligence, Cybersecurity, and emerging intelligent domains." />
   <link rel="icon" type="image/png" href="/assets/aicybex-favicon.png" />
-  <link rel="stylesheet" href="/assets/style.css?v=60" />
+  <link rel="stylesheet" href="/assets/style.css?v=70" />
 </head>
 <body>
   <header class="nav">
     <a class="brand" href="#home" aria-label="AICYBEX Lab home">
       <img src="/assets/aicybex-logo.png" alt="AICYBEX Lab logo" />
     </a>
-
     <button class="menu-toggle" aria-label="Open menu">☰</button>
-
     <nav class="nav-links">
       <a href="#research">Research</a>
       <a href="#projects">Projects</a>
@@ -43,8 +41,63 @@
         </div>
       </div>
 
-      <div class="hero-visual">
-        <img src="/assets/aicybex-x-domains.png" alt="AICYBEX X domains: AI security, cybersecurity, cyberbiosecurity, healthcare AI, cyber-physical systems, and emerging technologies" />
+      <div class="hero-slider" aria-label="AICYBEX research and team slider">
+        <div class="slides">
+          <article class="slide active image-slide">
+            <img src="/assets/slide-research-domains.png" alt="AICYBEX research domains diagram" />
+            <div class="slide-caption">
+              <span>Research Map</span>
+              <h3>AI + Cybersecurity + X Domains</h3>
+            </div>
+          </article>
+
+          <article class="slide lab-slide">
+            <div class="slide-icon">AI</div>
+            <div>
+              <span>Research Focus</span>
+              <h3>AI Security and Trustworthy Intelligence</h3>
+              <p>LLM security, AI red teaming, adversarial ML, jailbreak detection, and AI firewall systems.</p>
+            </div>
+          </article>
+
+          <article class="slide lab-slide">
+            <div class="slide-icon">CY</div>
+            <div>
+              <span>Cyber Defense</span>
+              <h3>Network Security and Intelligent Defense</h3>
+              <p>Intrusion detection and response, attack graphs, threat intelligence, and AI-powered cyber defense.</p>
+            </div>
+          </article>
+
+          <article class="slide lab-slide">
+            <div class="slide-icon">X</div>
+            <div>
+              <span>Emerging Domains</span>
+              <h3>Cyberbiosecurity, Healthcare AI, and CPS</h3>
+              <p>Securing intelligent systems across biological, biomedical, cyber-physical, and future technology domains.</p>
+            </div>
+          </article>
+
+          <article class="slide lab-slide team-slide">
+            <div class="slide-icon">LAB</div>
+            <div>
+              <span>Research Team</span>
+              <h3>Students, Collaborators, and Innovation</h3>
+              <p>Replace this slide with lab photos, research demos, competition events, student achievements, and team activities.</p>
+            </div>
+          </article>
+        </div>
+
+        <button class="slider-btn prev" aria-label="Previous slide">‹</button>
+        <button class="slider-btn next" aria-label="Next slide">›</button>
+
+        <div class="slider-dots" aria-label="Slider navigation">
+          <button class="dot active" aria-label="Slide 1"></button>
+          <button class="dot" aria-label="Slide 2"></button>
+          <button class="dot" aria-label="Slide 3"></button>
+          <button class="dot" aria-label="Slide 4"></button>
+          <button class="dot" aria-label="Slide 5"></button>
+        </div>
       </div>
     </section>
 
@@ -57,35 +110,15 @@
           emerging domains where intelligent technologies create new security, privacy, safety, and resilience challenges.
         </p>
       </div>
-
       <div class="research-cards">
-        <article class="research-card">
-          <span>AI</span>
-          <h3>AI Security</h3>
-          <p>LLM security, AI red teaming, jailbreak detection, backdoor attacks, adversarial machine learning, and trustworthy AI.</p>
-        </article>
-
-        <article class="research-card">
-          <span>CYBER</span>
-          <h3>Cybersecurity</h3>
-          <p>Network security, intrusion detection and response, attack graphs, threat intelligence, and AI-powered cyber defense.</p>
-        </article>
-
-        <article class="research-card highlight">
-          <span>X</span>
-          <h3>Emerging Domains</h3>
-          <p>Cyberbiosecurity, Bio-LLMs, healthcare AI, cyber-physical systems, autonomous systems, and future frontiers.</p>
-        </article>
+        <article class="research-card"><span>AI</span><h3>AI Security</h3><p>LLM security, AI red teaming, jailbreak detection, backdoor attacks, adversarial machine learning, and trustworthy AI.</p></article>
+        <article class="research-card"><span>CYBER</span><h3>Cybersecurity</h3><p>Network security, intrusion detection and response, attack graphs, threat intelligence, and AI-powered cyber defense.</p></article>
+        <article class="research-card highlight"><span>X</span><h3>Emerging Domains</h3><p>Cyberbiosecurity, Bio-LLMs, healthcare AI, cyber-physical systems, autonomous systems, and future frontiers.</p></article>
       </div>
     </section>
 
     <section id="projects" class="section dark">
-      <div class="section-head">
-        <p class="kicker">Featured Work</p>
-        <h2>Research Projects</h2>
-        <p>Selected projects representing the lab's AI + Cybersecurity + X vision.</p>
-      </div>
-
+      <div class="section-head"><p class="kicker">Featured Work</p><h2>Research Projects</h2><p>Selected projects representing the lab's AI + Cybersecurity + X vision.</p></div>
       <div class="project-grid">
         <article><span>01</span><h3>AI Firewall</h3><p>Detection and mitigation of prompt injection, jailbreaks, unsafe LLM behaviors, and adversarial AI interactions.</p></article>
         <article><span>02</span><h3>AIC2 Platform</h3><p>AI and cybersecurity competition platform for workforce development, hands-on education, and AI security challenges.</p></article>
@@ -95,11 +128,7 @@
     </section>
 
     <section id="news" class="section">
-      <div class="section-head">
-        <p class="kicker">Updates</p>
-        <h2>Recent News</h2>
-      </div>
-
+      <div class="section-head"><p class="kicker">Updates</p><h2>Recent News</h2></div>
       <div class="news-list">
         <article><time>June 2026</time><h3>AICYBEX Lab website launched</h3><p>The lab website is now available at aicybex.com.</p></article>
         <article><time>Spring 2026</time><h3>New research directions</h3><p>Expanding research in AI security, cyberbiosecurity, trustworthy AI, and emerging intelligent systems.</p></article>
@@ -108,12 +137,7 @@
     </section>
 
     <section id="publications" class="section">
-      <div class="section-head">
-        <p class="kicker">Scholarship</p>
-        <h2>Selected Publications</h2>
-        <p>Add recent papers here with links to DOI, arXiv, IEEE, ACM, GitHub, or project pages.</p>
-      </div>
-
+      <div class="section-head"><p class="kicker">Scholarship</p><h2>Selected Publications</h2><p>Add recent papers here with links to DOI, arXiv, IEEE, ACM, GitHub, or project pages.</p></div>
       <div class="publication-list">
         <article class="pub"><strong>Paper Title Placeholder</strong><p>Authors. Venue, Year.</p><a href="#">PDF</a><a href="#">Code</a><a href="#">Project</a></article>
         <article class="pub"><strong>Paper Title Placeholder</strong><p>Authors. Venue, Year.</p><a href="#">PDF</a><a href="#">DOI</a><a href="#">Slides</a></article>
@@ -121,11 +145,7 @@
     </section>
 
     <section id="people" class="section dark">
-      <div class="section-head">
-        <p class="kicker">Team</p>
-        <h2>People</h2>
-      </div>
-
+      <div class="section-head"><p class="kicker">Team</p><h2>People</h2></div>
       <div class="people-grid">
         <article class="person"><div class="avatar">MG</div><h3>Mohammad GhasemiGol</h3><p>Director, AICYBEX Lab<br />Associate Professor, Old Dominion University</p></article>
         <article class="person"><div class="avatar">PhD</div><h3>PhD Students</h3><p>Add current doctoral students and their research areas.</p></article>
@@ -135,10 +155,7 @@
 
     <section id="join" class="section join">
       <h2>Join AICYBEX</h2>
-      <p>
-        We welcome motivated students and collaborators interested in AI security, cybersecurity,
-        cyberbiosecurity, and trustworthy intelligent systems.
-      </p>
+      <p>We welcome motivated students and collaborators interested in AI security, cybersecurity, cyberbiosecurity, and trustworthy intelligent systems.</p>
       <a class="btn primary" href="mailto:m.ghasemigol@gmail.com">Contact Us</a>
     </section>
   </main>
@@ -148,6 +165,6 @@
     <p>© 2026 AICYBEX Lab, Old Dominion University</p>
   </footer>
 
-  <script src="/assets/script.js?v=60"></script>
+  <script src="/assets/script.js?v=70"></script>
 </body>
 </html>
